@@ -1,0 +1,67 @@
+\babel@toc {italian}{}\relax 
+\babel@toc {italian}{}\relax 
+\contentsline {section}{\numberline {1}Gruppi}{5}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Definizione di gruppo}{5}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Sottogruppi generati}{11}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}Gruppi ciclici}{15}{subsection.1.3}%
+\contentsline {subsection}{\numberline {1.4}Omomorfismi}{19}{subsection.1.4}%
+\contentsline {subsection}{\numberline {1.5}Prodotto diretto di gruppi}{26}{subsection.1.5}%
+\contentsline {subsection}{\numberline {1.6}Classi laterali e teorema di Lagrange}{32}{subsection.1.6}%
+\contentsline {subsection}{\numberline {1.7}Sottogruppi normali}{38}{subsection.1.7}%
+\contentsline {subsection}{\numberline {1.8}Gruppo quoziente}{43}{subsection.1.8}%
+\contentsline {subsection}{\numberline {1.9}Teoremi di omomorfismo}{46}{subsection.1.9}%
+\contentsline {subsection}{\numberline {1.10}Teorema di corrispondenza dei sottogruppi}{52}{subsection.1.10}%
+\contentsline {section}{\numberline {2}Anelli}{55}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Definizione di anello}{55}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Omomorfismo di anelli}{59}{subsection.2.2}%
+\contentsline {section}{\numberline {3}Polinomi}{60}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Anello dei polinomi}{60}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Polinomi a coefficienti in un campo}{65}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Fattorizzazione Di Polinomi In Un Campo}{68}{subsection.3.3}%
+\contentsline {subsubsection}{\numberline {3.3.1}$\mathbb C[x]$}{68}{subsubsection.3.3.1}%
+\contentsline {subsubsection}{\numberline {3.3.2}$\mathbb R[x]$}{70}{subsubsection.3.3.2}%
+\contentsline {subsubsection}{\numberline {3.3.3}$\mathbb Q[x]$}{72}{subsubsection.3.3.3}%
+\contentsline {subsubsection}{\numberline {3.3.4}$\mathbb Z[x]$}{73}{subsubsection.3.3.4}%
+\contentsline {paragraph}{\nonumberline Metodo Delle Radici Razionali}{73}{paragraph*.5}%
+\contentsline {paragraph}{\nonumberline Riduzione Modulo Un Primo}{74}{paragraph*.7}%
+\contentsline {paragraph}{\nonumberline Criterio Di Eisenstein}{76}{paragraph*.9}%
+\contentsline {subsection}{\numberline {3.4}Ideali}{77}{subsection.3.4}%
+\contentsline {section}{\numberline {4}Estensioni Di Campi}{83}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Estensioni ed estensioni algebriche}{83}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Polinomi minimi}{85}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Estensioni semplici}{89}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Estensioni non semplici}{92}{subsection.4.4}%
+\contentsline {subsection}{\numberline {4.5}Chiusura algebrica}{95}{subsection.4.5}%
+\contentsline {subsection}{\numberline {4.6}Campi di spezzamento}{96}{subsection.4.6}%
+\contentsline {subsection}{\numberline {4.7}Caratteristica di un campo}{97}{subsection.4.7}%
+\contentsline {section}{\numberline {5}Campi Finiti}{98}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Definizione di campo finito}{98}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}$\mathbb {F}_{p^{n}}$ come estensione di ${\mathbb F}_p$}{102}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}Sottocampi di $\mathbb {F}_{p^{n}}$}{105}{subsection.5.3}%
+\contentsline {subsection}{\numberline {5.4}Campi di spezzamento su ${\mathbb F}_p$}{106}{subsection.5.4}%
+\contentsline {subsection}{\numberline {5.5}Campo di spezzamento di $x^n-1$ su ${\mathbb F}_p$}{108}{subsection.5.5}%
+\contentsline {section}{\numberline {A}Complementi Sui Gruppi}{111}{appendix.Alph1}%
+\contentsline {subsection}{\numberline {A.1}Numero di isomorfismi tra due gruppi}{111}{subsection.Alph1.1}%
+\contentsline {subsection}{\numberline {A.2}Gruppo Abeliano}{111}{subsection.Alph1.2}%
+\contentsline {subsection}{\numberline {A.3}Descrizione di gruppi astratti}{112}{subsection.Alph1.3}%
+\contentsline {subsection}{\numberline {A.4}Classi laterali destre e sinistre}{115}{subsection.Alph1.4}%
+\contentsline {subsection}{\numberline {A.5}Ordini degli elementi nel prodotto di gruppi}{116}{subsection.Alph1.5}%
+\contentsline {subsection}{\numberline {A.6}Teorema Di Cauchy per $p = 2$}{117}{subsection.Alph1.6}%
+\contentsline {subsection}{\numberline {A.7}Sottogruppi dei gruppi finiti}{118}{subsection.Alph1.7}%
+\contentsline {subsection}{\numberline {A.8}Omomorfismi tra gruppi ciclici}{118}{subsection.Alph1.8}%
+\contentsline {subsection}{\numberline {A.9}Automorfismi}{121}{subsection.Alph1.9}%
+\contentsline {subsection}{\numberline {A.10}Sottogruppi ciclici di un gruppo}{124}{subsection.Alph1.10}%
+\contentsline {subsection}{\numberline {A.11}Ordini in gruppi abeliani}{125}{subsection.Alph1.11}%
+\contentsline {subsubsection}{\numberline {A.11.1}${\mathbb Z/p\mathbb Z^*}$}{127}{subsubsection.Alph1.11.1}%
+\contentsline {subsection}{\numberline {A.12}Gruppo infinito con elementi di ordine finito}{127}{subsection.Alph1.12}%
+\contentsline {subsection}{\numberline {A.13}Gruppi con sottogruppi ciclici}{128}{subsection.Alph1.13}%
+\contentsline {subsubsection}{\numberline {A.13.1}$\mathbb {Z}/{p^n}\mathbb {Z}^*$}{129}{subsubsection.Alph1.13.1}%
+\contentsline {subsection}{\numberline {A.14}Numero di potenze modulo $p^n$}{130}{subsection.Alph1.14}%
+\contentsline {subsection}{\numberline {A.15}Teorema Di Cauchy per gruppi abeliani}{131}{subsection.Alph1.15}%
+\contentsline {subsection}{\numberline {A.16}Applicazioni del Teorema Di Corrispondenza}{132}{subsection.Alph1.16}%
+\contentsline {section}{\numberline {B}Complementi Sui Polinomi}{134}{appendix.Alph2}%
+\contentsline {subsection}{\numberline {B.1}Criterio della derivata}{134}{subsection.Alph2.1}%
+\contentsline {section}{\numberline {C}Complementi Sulle Estensioni Di Campi}{135}{appendix.Alph3}%
+\contentsline {subsection}{\numberline {C.1}Estensioni Quadratiche}{135}{subsection.Alph3.1}%
+\contentsline {subsection}{\numberline {C.2}Lemma Dei Gradi Delle Estensioni}{137}{subsection.Alph3.2}%
+\providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
