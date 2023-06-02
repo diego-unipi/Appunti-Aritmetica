@@ -1657,7 +1657,7 @@ Siano $a,m \in \ZZ$, $m \geq 2$ e $(a,m)=1$, allora:
 \end{corollary}
 
 \begin{proof}
-Per dimostrare l'affermazione è sufficiente considerare come gruppo $G=\Zm^*$, ricordando che i suoi elementi sono tutte le classi imvertibili modulo $m$, sappiamo che $|G|=\phi(m)$ e quindi, per quanto appena visto nel \hyperref[g:OrdLagrange]{Corollario 1.71}, segue immediatamente la tesi:
+Per dimostrare l'affermazione è sufficiente considerare come gruppo $G=\Zm^*$, ricordando che i suoi elementi sono tutte le classi invertibili modulo $m$, sappiamo che $|G|=\phi(m)$ e quindi, per quanto appena visto nel \hyperref[g:OrdLagrange]{Corollario 1.71}, segue immediatamente la tesi:
 	\[ x^{|G|} \equiv x^{\phi(m)} \equiv 1 \pmod{m}
 	\]
 \end{proof}
@@ -1947,7 +1947,7 @@ ovvero:
 		\[ Hg_1^{-1}=Hg_2^{-1}
 		\]
 		da cui $Hg_2^{-1}g_1=H \implies g_2^{-1}g_1 \in H$ (oppure $Hg_1^{-1}g_2=H \implies Hg_1^{-1}g_2 \in H$), ovvero la stessa relazione iniziale (che è equivalente logicamente al fatto che le due classi laterali sono uguali)\footnote{Invece, se ad esempio avessimo scelto come applicazione $\varphi: gH \longmapsto Hg$, per $g_1H=g_2H \iff g_2^{-1}g_1 \in H (g_1^{-1}g_2 \in H)$, avremmo ottenuto $g_2g_1^{-1} \in H(g_1g_2^{-1} \in H)$, quindi rappresentanti uguali avrebbero prodotto risultati diversi, non verificando la buona definizione.}, dunque, cambiando i rappresentanti delle classi laterali di partenza il risultato dell'applicazione non varia $\implies \varphi$ è ben definita.\footnote{Se avessimo definito $\varphi$ diversamente avremmo avuto due relazioni diverse tra $g_1$ e $g_2$ nel dominio e nell'immagine, e quindi vi sarebbero stato un problema di buona definizione.}
-		\ii Per vedere $\varphi$ è una bigezione, è sufficiente torvare un'inversa alla funzione data, e questa è banalmente:
+		\ii Per vedere $\varphi$ è una bigezione, è sufficiente trovare un'inversa alla funzione data, e questa è banalmente:
 			\[ \varphi^{-1} : \left\{Hg | g \in G\right\} \longrightarrow \left\{gH | g \in G\right\} : Hg \longmapsto g^{-1}H\]
 			ciò è equivalente a dire che $\varphi$ è una bigezione.
 		\end{enumerate}
@@ -2178,7 +2178,7 @@ quindi si conclude che $\varphi$ è un omomorfismo. Ci restano da verificare le 
 			\]
 				\[ = \left\{xN \in \faktor GN \m x \in \ker f\right\}\footnote{Sono le classi laterali $xN$ con rappresentante $x$ nel 
 				nucleo di $f$, essendo $N \subseteq \ker f$, quozientare $\ker f$ con $N$ ci dà tutte le classi laterali modulo $N$ di $\ker f$ (e quindi si 
-				stabilisce una partizione di $\ker f$ indott da $N$), con tutti i 
+				stabilisce una partizione di $\ker f$ indotta da $N$), con tutti i 
 				possibili rappresentanti in $\ker f$.} = \faktor {\ker f}{N}
 			\]
 	\end{itemize}
@@ -2450,7 +2450,7 @@ dove abbiamo usato il fatto che $N$ sia normale per poter giustificare le ultime
 inoltre, $xH = yH \iff y \in xH \implies y=xh_0$, $h_0 \in H$, da cui si ottiene che:
 	\[ \left\{yhN | h\in H\right\} = \{x\underbrace{h_0h}_{h_0H=H}N | h\in H\} = \left\{xhN | h\in H\right\} = xN\left(\faktor HN\right)
 	\]
-nel terz'ultimo passaggio i prodotti sono tutti in $H$ e quindi ci danno tutti gli altri elementi di $H$, pertanto si riottiene la 
+nel terzultimo passaggio i prodotti sono tutti in $H$ e quindi ci danno tutti gli altri elementi di $H$, pertanto si riottiene la 
 definizione di $xN\left(\faktor{H}{N}\right)$,ciò dimostra l'ultima parte della tesi: $xH = yH \iff xN\left(\faktor HN\right) = yN\left(\faktor HN\right)$.
 \end{proof}
 
@@ -2461,7 +2461,7 @@ Sia $G=\ZZ$ e $N=n\ZZ$, da cui $\faktor GN = \faktor{\ZZ}{n\ZZ}$, per il Teorema
 tale che:
 	\[ \pi_{n\ZZ}:m\ZZ \longmapsto \faktor{m\ZZ}{n\ZZ}\footnote{$\pi_{n\ZZ}: a (\in m\ZZ) \longmapsto [a]_n$.}
 	\]
-Questo ci dice che i sottogruppi di $\Zn$ sono tanti quante le proiezioni degli $m\ZZ$, con $m \mid n$ e sono del tipo $\pi_{n\ZZ}(m\ZZ)= \faktor{m\ZZ}{n\ZZ}$ (dove $m \mid n$). Inoltre, il teorema di corrispondeza preserva anche l'indice del sottogruppo:
+Questo ci dice che i sottogruppi di $\Zn$ sono tanti quante le proiezioni degli $m\ZZ$, con $m \mid n$ e sono del tipo $\pi_{n\ZZ}(m\ZZ)= \faktor{m\ZZ}{n\ZZ}$ (dove $m \mid n$). Inoltre, il teorema di corrispondenza preserva anche l'indice del sottogruppo:
 	\[ m=[\ZZ:m\ZZ]=\left[\faktor{\ZZ}{n\ZZ} : \faktor{m\ZZ}{n\ZZ}\right]
 	\]
 dove $m$ rappresenta il numero di classi laterali di $\ZZ$ modulo $m\ZZ$ ed è uguale a quello delle classi laterali di $\Zn$ modulo $m\Zn$. In questo caso particolare, tuttavia, lo sapevamo già perché avevamo già contato i sottogruppi di $\Zn$ (infatti vale l'inverso di Lagrange, pertanto c'è un sottogruppo di $\Zn$ per ogni $m \mid n$, del tipo $m\Zn$ e, che, come visto ne \hyperref[g:sottogZn]{Teorema 1.41}, ha esattamente ordine $n/m$), ricordando il \hyperref[g:qciclici]{Corollario 1.104}, possiamo affermare che considerato un sottogruppo $m\Zn \leqslant \Zn$ si ha che (ricordando anche che il sottogruppo di ogni gruppo ciclico è ciclico):
@@ -3303,7 +3303,7 @@ ma posso fattorizzarlo anche in $\ZZ[x]$ per il \hyperref[p:Gauss]{Lemma di Gaus
 	\]
 \end{example}
 
-A questo punto, non ci resta che esaminare l'irriducibilità dei polinomi in $\ZZ[x]$, questo problema può essere affrontato con l'utilizzo di tre tecniche: ricerca delle radici razionali, riduzione modulo un primo e criterio di Eisentein che ora vedremo in dettaglio.
+A questo punto, non ci resta che esaminare l'irriducibilità dei polinomi in $\ZZ[x]$, questo problema può essere affrontato con l'utilizzo di tre tecniche: ricerca delle radici razionali, riduzione modulo un primo e criterio di Eisenstein che ora vedremo in dettaglio.
 
 \paragraph{Metodo Delle Radici Razionali}
 \begin{theorem}
@@ -3481,7 +3481,7 @@ Dato un anello $A$ ed un suo ideale $I$, allora l'insieme quoziente tra l'anello
 
 \begin{proof}
 Essendo per ipotesi $I \trianglelefteqslant (A,+)$, segue che $\left(\faktor{A}{I},+\right)$ è un gruppo, ed è abeliano (in quanto $A$ è un anello e quindi $(A,+)$ è abeliano).
-La chiusura per prodotto segue dalla definzione di prodotto tra classi laterali (vista sopra), mentre l'associatività del prodotto segue da quella in $A$:
+La chiusura per prodotto segue dalla definizione di prodotto tra classi laterali (vista sopra), mentre l'associatività del prodotto segue da quella in $A$:
 	\begin{multline*}
 		((a + I)(b + I))(c + I) = (ab + I)(c + I) = abc + I = \\
 		=(a + I)(bc + I) = (a + I)((b + I)(c + I))
@@ -3606,7 +3606,7 @@ dove l'ultima affermazione è equivalente al fatto che $\overline{a(x)}$ sia inv
 
 \begin{remark}
 [Spazi Vettoriali]
-Un gruppo abeliano $(V,+)$ si dice \vocab{spazio vettoriale} sul campo $K$ se esiste un'appliazione:
+Un gruppo abeliano $(V,+)$ si dice \vocab{spazio vettoriale} sul campo $K$ se esiste un'applicazione:
 	\[ K \times V \longrightarrow V : (\lambda,v) \longmapsto \lambda \cdot v
 		\]
 detta \vocab{prodotto scalare}, con le seguenti proprietà:
@@ -3634,8 +3634,8 @@ ovvero se $\forall \overline{a(x)} \in \frac{K[x]}{(f(x))}$, con $\overline{a(x)
 	\qquad\qquad
 	\forall r(x) \in K[x]: \deg r(x) < \deg(x)
 		\]
-	ovvero $f(x)$ non ha fattori in comune con nessun polinomio di $K[x]$ di grado minore, quindi con nessun polinimio dell'insieme $\frac{K[x]}{(f(x))}$,
-	e ciò è equivalente al chiedere che $f(x)$ non possa essere scritto come prodtto di polinomi di grado $>0$, ovvero equivale a dire che $f(x)$ è irriducibile in $K[x]$.
+	ovvero $f(x)$ non ha fattori in comune con nessun polinomio di $K[x]$ di grado minore, quindi con nessun polinomio dell'insieme $\frac{K[x]}{(f(x))}$,
+	e ciò è equivalente al chiedere che $f(x)$ non possa essere scritto come prodotto di polinomi di grado $>0$, ovvero equivale a dire che $f(x)$ è irriducibile in $K[x]$.
 \end{proof}
 
 \begin{remark}
@@ -3789,7 +3789,7 @@ Verifichiamo le proposizioni singolarmente:
 	\ii Consideriamo il polinomio $\mu_\alpha (x) \in \ker \varphi_\alpha (\subseteq K[x])$ tale che $\mu_\alpha (\alpha) = 0$, se fosse che $\mu_\alpha (x) = a(x)b(x)$, con $a(x),b(x) \in K[x]$, allora:
 		\[ 0 = \mu_\alpha (\alpha) = a(\alpha)b(\alpha)
 		\]
-in $K[\alpha] (\subseteq F)$, ma per la legge di annullamento del prodotto\footnote{Vale poiché $F$ è un campo e quindi un dominio di intergità.} deve essere che $a(\alpha) = 0$ o $b(\alpha) = 0$ (ovvero $a(x)  \in \ker \varphi_\alpha$ o $b(x)  \in \ker \varphi_\alpha$), ma, $\mu_\alpha (x)$ ha grado minimo tra i polinomi di $K[x]$ che si annullano in $\alpha$, ovvero (WLOG):
+in $K[\alpha] (\subseteq F)$, ma per la legge di annullamento del prodotto\footnote{Vale poiché $F$ è un campo e quindi un dominio di integrità.} deve essere che $a(\alpha) = 0$ o $b(\alpha) = 0$ (ovvero $a(x)  \in \ker \varphi_\alpha$ o $b(x)  \in \ker \varphi_\alpha$), ma, $\mu_\alpha (x)$ ha grado minimo tra i polinomi di $K[x]$ che si annullano in $\alpha$, ovvero (WLOG):
 		\[ \deg a(x) \geq \deg \mu_\alpha(x)
 		\]
 		poiché $ \deg \mu_\alpha(x) =  \deg a(x) +  \deg b(x)$, l'unica possibilità è che $\deg a(x) = \deg \mu_\alpha(x)$ e $\deg b(x) = 0$ ovvero $\mu_\alpha (x)$ è irriducibile in $K[x]$.
@@ -4070,7 +4070,7 @@ Per verificare l'uguaglianza insiemistica verifichiamo la doppia inclusione, la 
 	\[  K[\alpha_1,\ldots,\alpha_n] \supseteq \bigcap_{\substack{K \subseteq M \subseteq F \\ \alpha_1,\ldots,\alpha_n \in M}}M
 	\]
 in quanto sappiamo che $K[\alpha_1,\ldots,\alpha_n]$ è un sottocampo di $F$ che contiene $K$ e $\alpha_1,\ldots,\alpha_n$ (quindi è uno dei termini considerati nell'intersezione), quindi l'intersezione è sempre contenuta in $K[\alpha_1,\ldots,\alpha_n]$.
-Viceversa, $\forall M$, poiché $M$ è un campo, tutte le espressioni del tipo $p(\alpha_1,\ldots,\alpha_n)$, con $p(x) \in K[x_1,\ldots,x_n]$ sono contenute in $M$ (per le proprietà di chiusra del campo), ciò significa che:
+Viceversa, $\forall M$, poiché $M$ è un campo, tutte le espressioni del tipo $p(\alpha_1,\ldots,\alpha_n)$, con $p(x) \in K[x_1,\ldots,x_n]$ sono contenute in $M$ (per le proprietà di chiusura del campo), ciò significa che:
 	\[ K[\alpha_1,\ldots,\alpha_n] \subseteq M, \forall M \implies K[\alpha_1,\ldots,\alpha_n] \subseteq \bigcap_{\substack{K \subseteq M \subseteq F \\ \alpha_1,\ldots,\alpha_n \in M}}M
 	\]
 	\end{enumerate}
@@ -4345,7 +4345,7 @@ cardinalità infinita, come ad esempio:
 \end{example}
 
 \begin{remark}
-	Abbiamo visto che, dato un polinimio di grado $n$ irriducibile in $\Fp[x]$, possiamo costurire un campo di $p^n$
+	Abbiamo visto che, dato un polinomio di grado $n$ irriducibile in $\Fp[x]$, possiamo costruire un campo di $p^n$
 	elementi, quindi, ad esempio, abbiamo:
 		\[\F2,\F3,\F4=\frac{\F2[x]}{(x^2+x+1)},\F5
 			\]
@@ -4414,7 +4414,7 @@ Dal teorema appena dimostrato si può arrivare ad un risultato ancora più fonda
 \end{theorem}
 
 \begin{proof}
-	Data $\overline \Fp$ chiusra algebrica di $\Fp$, sia $F \subset \overline\Fp$ il campo con $p^n$ elementi
+	Data $\overline \Fp$ chiusura algebrica di $\Fp$, sia $F \subset \overline\Fp$ il campo con $p^n$ elementi
 	si deve avere $\Fp \subset F \subset \overline\Fp$, essendo $F$ un campo si ha che $F^* = F \setminus \{0\}$,
 	da cui $|F^*| = |F| - 1 = p^n - 1$, allora gli elementi diversi da $0$ di questo campo devono essere
 	radici del polinomio:
@@ -4483,7 +4483,7 @@ Dal teorema appena dimostrato si può arrivare ad un risultato ancora più fonda
 
 \newpage
 \subsection{$\Fpn$ come estensione di $\Fp$}
-Avendo dimostrato che per ogni $p$ ed ogni $n$ esiste un campo finito di cardinalità $p^n$, e che tutte le cardinatità di campi finiti sono del tipo $p^n$, a questo punto è 
+Avendo dimostrato che per ogni $p$ ed ogni $n$ esiste un campo finito di cardinalità $p^n$, e che tutte le cardinalità di campi finiti sono del tipo $p^n$, a questo punto è 
 lecito domandarsi se i campi del tipo:
 	\[ \frac{\Fp[x]}{(f(x))}
 		\]
@@ -4526,14 +4526,14 @@ La risposta alla domanda precedente, come vedremo, è affermativa.
 				\]
 		ciò significa che $|\left<g\right>|=d \leq |G_d| \leq d \implies G_d = \left<g\right>$, quindi se $G $ ammette un elemento di ordine $d$, allora ha un unico sottogruppo
 		di ordine $d$, $G_d (=\left<g\right>)$, che è anche ciclico.
-	 	Pertanto $G$ o non ha elementi di ordine $d$, oppure sono tutti contenuti nell'unico sottogrupo ciclico $G_d$ che li contiene, segue
+	 	Pertanto $G$ o non ha elementi di ordine $d$, oppure sono tutti contenuti nell'unico sottogruppo ciclico $G_d$ che li contiene, segue
 		$k_d = \phi(d)$. Partizionando $G$ in base all'ordine degli elementi si ha che:
 			\[ n = |G| = \sum |G_d| =\sum_{d \mid n} k_d \leq \sum_{d\mid n} \phi(d) = n \footnote{$\leq$, poiché non sappiamo a priori se $k_d = 0$.}
 				\]
 		dove l'ultima uguaglianza è vera per il \hyperref[sum]{Corollario 1.39}, e quindi la disuguaglianza nel mezzo è in realtà un uguaglianza:
 		\[ \sum_{d \mid n} k_d = \sum_{d\mid n} \phi(d) = n
 		\]
-		 dall'uguaglianza segeue quindi che $\forall d\mid n$, $k_d = \phi(d)$, in particolare, $k_n = \phi(n) \geq 1$, quindi esiste $g \in G$ tale che $\ord(g) = n \implies G$ ciclico.
+		 dall'uguaglianza segue quindi che $\forall d\mid n$, $k_d = \phi(d)$, in particolare, $k_n = \phi(n) \geq 1$, quindi esiste $g \in G$ tale che $\ord(g) = n \implies G$ ciclico.
 \end{proof}
 
 \begin{example}
@@ -4587,12 +4587,12 @@ polinomi irriducibili di grado $n$ a coefficienti in $\Fp$.
 \end{proof}
 
 \begin{remark}
-Consideraro $f(x) \in \Fp[x]$ irriducibile e di grado $n$, sia $\{\alpha_1,\ldots,\alpha_n\} \subset \overline\Fp$
-l'insieme delle sue radici nella chiusrua algebrica di $\Fp$, consideriamo:
+Sia $f(x) \in \Fp[x]$ irriducibile e di grado $n$, sia $\{\alpha_1,\ldots,\alpha_n\} \subset \overline\Fp$
+l'insieme delle sue radici nella chiusura algebrica di $\Fp$, consideriamo:
 	\[ \Fp[\alpha_1] \cong \frac{\Fp[x]}{(f(x))}, \Fp[\alpha_2] \cong \frac{\Fp[x]}{(f(x))}, \ldots,
 	\Fp[\alpha_n] \cong \frac{\Fp[x]}{(f(x))}
 		\]
-	esse sono tutte estensioni di grado $n$ (quindi campi con $p^n$ elementi), in quanto si utilizzano radici del medsimo polinimio irriducibile per costruire le estensioni, quindi:
+	esse sono tutte estensioni di grado $n$ (quindi campi con $p^n$ elementi), in quanto si utilizzano radici del medesimo polinomio irriducibile per costruire le estensioni, quindi:
 		\[ [\Fp[\alpha_i] : \Fp] = n
 		\qquad\qquad
 		\forall i \in \{1,\ldots,n\}
@@ -4600,11 +4600,11 @@ l'insieme delle sue radici nella chiusrua algebrica di $\Fp$, consideriamo:
 	ma, per quanto visto nel \hyperref[cf:5.9]{Teorema 5.9} esiste ed è unico in $\overline\Fp$ un campo con $p^n$ elementi, ma da ciò segue:
 		\[\Fp[\alpha_1] = \ldots = \Fp[\alpha_n]
 			\]
-	e quindi, il campo di spezzamento di $f(x)$ è lo stesso per tutte le radici di un polinimio in $\Fp[x]$:
+	e quindi, il campo di spezzamento di $f(x)$ è lo stesso per tutte le radici di un polinomio in $\Fp[x]$:
 		\[ \Fp[\alpha_1,\ldots,\alpha_n] = \Fp[\alpha_i] = \Fpn
 		\qquad\qquad\forall i \in \{1,\ldots,n\}
 			\]
-	ciò signifca che, aggiunta una sola radice del polinomio a $\Fp$ si ottiene direttamente il campo di spezzamento (cosa che non accade su $\QQ$),
+	ciò significa che, aggiunta una sola radice del polinomio a $\Fp$ si ottiene direttamente il campo di spezzamento (cosa che non accade su $\QQ$),
 	inoltre, determinato il grado del campo di spezzamento (quindi quello di una singola estensione), si conosce il campo di spezzamento del polinomio che
 	è sempre $\Fpn$ (ovvero il campo delle radici del polinomio $x^{p^n} - x$).
 \end{remark}
@@ -4657,7 +4657,7 @@ Proviamo le due implicazioni separatamente:
 
 \begin{proof}
 Sia $\Fc{p}{m}$ il campo di spezzamento di $f(x)$ su $\Fp$ (sappiamo per quanto visto che è di questo tipo, dato che 
-è un'estesnione finita di $\Fp$, del tipo $\Fp(\gamma_1,\ldots,\gamma_n)$), si vuole dimostrare che $m=d$. Sia $\gamma_i$ una
+è un'estensione finita di $\Fp$, del tipo $\Fp(\gamma_1,\ldots,\gamma_n)$), si vuole dimostrare che $m=d$. Sia $\gamma_i$ una
 radice del polinomio $f_i(x)$ irriducibile su $\Fp[x]$, detto $d_i = \deg f_i(x)$, si ha che il campo di spezzamento di $f_i(x)$ è:
 	\[ \Fp(\gamma_i) = \Fc{p}{d_i}
 		\]
@@ -4681,7 +4681,7 @@ $\Fc{p}{m}$ è per definizione di campo di spezzamento la più piccola estension
 \end{corollary}
 
 \begin{proof}
-	Se $f(x)$ è irriducibile in $\Fp[x]$, allora non ha fattori propri, pertanto può avere solo raidci multiple, dunque se $f(x)$ ha radici multiple,
+	Se $f(x)$ è irriducibile in $\Fp[x]$, allora non ha fattori propri, pertanto può avere solo radici multiple, dunque se $f(x)$ ha radici multiple,
 	allora $(f(x),f^{\prime}(x)) \ne 1$ (per il \hyperref[p:der]{Criterio Della Derivata}), allora o $f(x) = 1$, ma non è possibile perché $f(x)$ ha fattori multipli,
 	pertanto $(f(x),f^{\prime}(x)) = f(x) \implies f(x) \mid f^{\prime}(x)$, ma $\deg f^{\prime}(x) \leq \deg f(x)$, pertanto l'unica possibilità è che $f^{\prime}(x)=0$.
 \end{proof}
@@ -4703,7 +4703,7 @@ $\Fc{p}{m}$ è per definizione di campo di spezzamento la più piccola estension
 			\]
 \end{remark}
 	
-Nei campi finiti non succede che un polinimio irriducibile abbia radici multiple, pioché vale:
+Nei campi finiti non succede che un polinomio irriducibile abbia radici multiple, poiché vale:
 
 \begin{theorem}
 	Sia $f(x) \in \Fp[x]$ e $f^{\prime}(x) = 0$, allora $f(x)=(g(x))^p$,
@@ -4781,10 +4781,10 @@ non ci resta che determinare $k$.
 		\[\ord_7(3) = 6 \implies \Fc{3}{6}
 			\]
 	il grado dell'estensione ci fornisce anche l'm.c.m. dei gradi della fattorizzazione in polinomi irriducibili di $f_7(x)$ su $\F3$, infatti,
-	essendo $6$, quindi si può fattorizzare il polinimio su $\F3$ come:
+	essendo $6$, quindi si può fattorizzare il polinomio su $\F3$ come:
 		\[ f_7(x) = x^7 - 1 = (x-1)(x^6+x^5+x^4+x^3+x^2+x+1)
 			\]
-	inoltre, il fatto che 6 sia l'm.c.m. dei gradi dei fattori irriducibili potrebbe suggeire un'altra possibile fattorizzazione del tipo $3+2+1$, ma
+	inoltre, il fatto che 6 sia l'm.c.m. dei gradi dei fattori irriducibili potrebbe suggerire un'altra possibile fattorizzazione del tipo $3+2+1$, ma
 	come si osserva $f_7(x)$ non ha altre radici in $\F3$, pertanto quella scritta è l'unica fattorizzazione possibile. Ugualmente in $\F{11}$ basta determinare:
 		\[\ord_7(11) = 3 \implies \Fc{11}{3}
 			\]
@@ -4970,7 +4970,7 @@ ovvero:
 		\forall x,y \in G
 		\]
 dove $(xy)^2=xyxy$ e, applicando le leggi di cancellazione dei gruppi, segue:
-		\[ xyxy=x^2y^2 \implies yxy = xy^2 \implies yx = xy
+		\[ xy xy=x^2y^2 \implies yxy = xy^2 \implies yx = xy
 		\qquad
 		\forall x,y \in G
 		\]
@@ -5235,7 +5235,7 @@ da cui:
 pertanto $\varphi$ è completamente determinato da $\varphi(\overline 1)$.
 \end{remark}
 
-L'osservazione appena fatta ci permette di dire che $\#\text{Hom}(G_1,G_2) \leq n$, infatti, una volta determinata l'immagine del generatore tutte le altre immagini sono date, pertanto (anche in generale per un secondo gruppo finito non ciclico qualsiasi), il numero massimo possibile di omomorfismi sicuramnte non potrà superare l'ordine del gruppo di arrivo (e quindi il numero di scelte per l'immagine del generatore).
+L'osservazione appena fatta ci permette di dire che $\#\text{Hom}(G_1,G_2) \leq n$, infatti, una volta determinata l'immagine del generatore tutte le altre immagini sono date, pertanto (anche in generale per un secondo gruppo finito non ciclico qualsiasi), il numero massimo possibile di omomorfismi sicuramente non potrà superare l'ordine del gruppo di arrivo (e quindi il numero di scelte per l'immagine del generatore).
 
 \begin{remark}
 [Omomorfismo all'elemento neutro]
@@ -5621,7 +5621,7 @@ per ipotesi, poiché $(n,m) = 1$, si ha che $mn \mid [m,nd] \implies [m,nd] = mn
 	\begin{itemize}
 		\ii Se $G$ non è abeliano, ad esempio $G = S_3$, possiamo considerare $H = \left<\sigma\right>$,
 		si ha che $[S_3 : \left<\sigma\right>] = 2 \implies \left<\sigma\right> \trianglelefteqslant S_3$, 
-		quindi possiamo consderare il gruppo quoziente $\faktor{S_3}{\left<\sigma\right>} = \{ \left<\sigma\right>, \tau\left<\sigma\right>\} = 
+		quindi possiamo considerare il gruppo quoziente $\faktor{S_3}{\left<\sigma\right>} = \{ \left<\sigma\right>, \tau\left<\sigma\right>\} = 
 		\{ \left<\sigma\right>, \left<\sigma\right>\tau\} \cong \Z2$, tuttavia ovviamente $S_3$ non è ciclico, nonostante $H$ e $\faktor GH$ siano ciclici e
 		di ordini coprimi.
 		\ii Se $H$ non è ciclico, consideriamo $G = \Z2 \times \Z2 \times \Z3$ e $H = \Z2 \times \Z2 \times \{\overline 0\}$, quoziente ha tre elementi ($[G:H] = 3$) e quindi
@@ -5756,7 +5756,7 @@ Se $p \mid |G|$, allora $|G| = pn$, quindi si può provare la tesi per induzione
  
 \begin{soln}
 	Osserviamo inizialmente che per ipotesi deve essere $\faktor{G}{H} \cong \Z5$, ovvero che gli elementi di $\faktor{G}{H}$ possono avere soltanto ordine 1 
-	o 5 (ed in particolare $\faktor{G}{H}$ è ciclico), ciò signifca che o $gH = H \iff g \in H (\implies 5g \in H)\footnote{Per chiusra dell'operazione.}$, oppure 
+	o 5 (ed in particolare $\faktor{G}{H}$ è ciclico), ciò significa che o $gH = H \iff g \in H (\implies 5g \in H)\footnote{Per chiusra dell'operazione.}$, oppure 
 	$5(gH) = (5g)H = H \iff 5g \in H$, $\forall g \in G$, quindi per ipotesi deve essere sempre che $5G = \{5g | g\ \in G\} \subseteq H$, dove $5G =
 	\{(5a,5b) | a,b \in \ZZ\} = 5\ZZ \times 5\ZZ$. A questo punto, essendo $\ZZ$ abeliano, segue $K = 5\ZZ \times 5\ZZ \trianglelefteqslant G$, vale quindi il 
 	\hyperref[g:Corrispondenza]{Teorema Di Corrispondenza Dei Sottogruppi}:
@@ -5773,10 +5773,10 @@ Se $p \mid |G|$, allora $|G| = pn$, quindi si può provare la tesi per induzione
 	 $\left<(\overline 1, \overline 4)\right>$, $\left<(\overline 1, \overline 5)\right>$, $\left<(\overline 0, \overline 1)\right>$, questi sottogruppi sono di ordine 5, e gli unici loro sottogruppi sono il gruppo 
 	 banale e se stessi, poiché l'intersezione tra due sottogruppi è un sottogruppo, intersecando due di loro o coincidono o la loro intersezione è il sottogruppo banale, dunque, affinché tali 
 	 sottogruppi siano tutti distinti (e quindi siano quelli che cerchiamo), è sufficiente controllare che le intersezioni a due a due siano tutte banali.
-	 Osserviamo che $\left<(\overline 0, \overline 1)\right>$ non contiene elementi della forma $(\overline 1, \overline x)$, quindi l'unica possibile Intersezione con gli altri è il sottogrupo banale,
+	 Osserviamo che $\left<(\overline 0, \overline 1)\right>$ non contiene elementi della forma $(\overline 1, \overline x)$, quindi l'unica possibile Intersezione con gli altri è il sottogruppo banale,
 	negli altri sottogruppi l'unico possibile elemento comune è della forma $(\overline 1, \overline x)$, ma al variare di $\overline x$ otteniamo il generatore di quel sottogruppo e le sue classi sono distinte da quelle 
-	di un altro generatore, pertanto tutti i sottogruppi sono distiniti e la loro intersezione è banale $\implies$ i sottogruppi trovati sono l'immagine di quelli richiesti all'inizio.\footnote{Il tipo di sottogruppi 
-	usati in questo caso è molto utlizzato per scrivere sottogruppi distinti di questo tipo in generale.} Non ci resta che prendere le controimmagini dei sottogruppi trovati, osserviamo preliminarmente che i sottogruppi
+	di un altro generatore, pertanto tutti i sottogruppi sono distinti e la loro intersezione è banale $\implies$ i sottogruppi trovati sono l'immagine di quelli richiesti all'inizio.\footnote{Il tipo di sottogruppi 
+	usati in questo caso è molto utilizzato per scrivere sottogruppi distinti di questo tipo in generale.} Non ci resta che prendere le controimmagini dei sottogruppi trovati, osserviamo preliminarmente che i sottogruppi
 	possono essere riscritti mediante le congruenze, ad esempio;
 		\[ \left<(\overline 1, \overline 2)\right> = \{(\overline x, \overline y)\in \Z5 \times \Z5 | \, y \equiv 2x \; (\text{mod}\; 5) \}
 			\]
@@ -5820,7 +5820,7 @@ Se $p \mid |G|$, allora $|G| = pn$, quindi si può provare la tesi per induzione
 \section{Complementi Sui Polinomi}
 \subsection{Criterio della derivata}
 \begin{theorem}
-	[Criterio della Drivata]
+	[Criterio della derivata]
 	\label{p:der}
 	Sia $K$ un campo, e $f(x) \in K[x]$, $f(x)$, allora $(f(x),f^{\prime}(x)) \ne 1$ se e solo se $\exists \alpha \in \overline K$ tale che $f(x) = (x - \alpha)^2g(x) \in \overline K[x]$.\footnote{Ovvero $f(x)$ ha una radice almeno doppia, eventualmente in un'estensione del campo.}
 \end{theorem}
@@ -5870,7 +5870,7 @@ estensioni quadratiche si ottengono estraendo una radice quadrata.
 \end{theorem}
 
 \begin{proof}
-Sia $\beta \in L\setminus{K}$, dunuque $K \subseteq K(\beta) \subseteq L$, e si osserva che $K(\beta) = L$, infatti:
+Sia $\beta \in L\setminus{K}$, dunque $K \subseteq K(\beta) \subseteq L$, e si osserva che $K(\beta) = L$, infatti:
 	\[ 1<[K(\beta) : K] \leq 2
 		\]
 dove $1<[K(\beta) : K]$ poiché $\beta \not\in K$ e quindi non esiste un polinomio di grado $1$ in $K[x]$ che si possa annullare in $\beta$, e d'altra parte, $[K(\beta) : K] \leq 2$,
