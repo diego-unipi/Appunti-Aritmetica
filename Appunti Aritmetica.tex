@@ -19,7 +19,7 @@ può farlo segnalando eventuali errori e/o imprecisioni alla mia mail.
 
 \section*{Ringraziamenti}
 Un ringraziamento a tutti coloro che mi hanno aiutato a trovare errori e che hanno dato consigli riguardo la stesura in particolare: Federico Allegri, 
-Luca Milanese, Pietro Crovetto.
+Luca Milanese, Pietro Crovetto, Gabriel Videtta.
 \newpage
 
 \tableofcontents
@@ -3685,7 +3685,7 @@ Dato un campo $K$ ed una sua estensione $F$, $\alpha \in F$ si dice \vocab{algeb
 \end{definition}
 
 \begin{definition}
-Dato un campo $K$ ed una sua estensione $F$, $\alpha \in F$ si dice \vocab{trascendete} su $K$ se non è algebrico, ovvero:
+Dato un campo $K$ ed una sua estensione $F$, $\alpha \in F$ si dice \vocab{trascendente} su $K$ se non è algebrico, ovvero:
 	\[ \not\exists f(x) \in K[x], f(x) \ne 0 : f(\alpha) = 0
 	\] 
 \end{definition}
@@ -3705,7 +3705,7 @@ Lindemann.} in quanto:
 Dato un polinomio a coefficienti in un campo $f(x) \in K[x]\setminus\{0\}$, se $\alpha \in F$ è algebrico su $K$, si ha che:
 	\[ f(\alpha) = a_n\alpha^n + \ldots + a_1\alpha + a_0 = 0
 	\]
-ovvero gli elementi $\{1,\alpha,\ldots,\alpha^n\}$ sono linearmente dipendenti su $K$, quindi ognuno di essi può essere espresso come combinazione lineare degli altri. Se invece $\alpha \in F$ è trascendete su $K$, si ha:
+ovvero gli elementi $\{1,\alpha,\ldots,\alpha^n\}$ sono linearmente dipendenti su $K$, quindi ognuno di essi può essere espresso come combinazione lineare degli altri. Se invece $\alpha \in F$ è trascendente su $K$, si ha:
 	\[ f(\alpha) = a_n\alpha^n + \ldots + a_1\alpha + a_0 = 0 \iff a_i = 0, \forall i \in \{0,\ldots,n\}, \forall f(x) \ne 0
 	\]
 ovvero gli elementi $\{1,\alpha,\ldots,\alpha^n\}$ sono linearmente indipendenti su $K$.
@@ -3762,7 +3762,7 @@ ovvero, il nucleo dell'omomorfismo di valutazione (definito come la controimmagi
 \begin{corollary}
 Dato un'estensione $\faktor FK$, si ha per $\alpha \in F$ che:
 	\begin{enumerate}[(1)]
-	\ii $\alpha$ è trascendete su $K$ $\iff \ker{\varphi_\alpha} = \{0\} \iff \varphi_\alpha$ è iniettivo $\iff K[x] \cong K[\alpha]$.\footnote{Ricordiamo che per il \hyperref[g:1]{Primo Teorema Di Omomorfismo}, scegliendo il nucleo come sottogruppo per cui quozientare si ha che $\overline\varphi$ è iniettivo, mentre se il nucleo è banale $\varphi$ è iniettivo.}
+	\ii $\alpha$ è trascendente su $K$ $\iff \ker{\varphi_\alpha} = \{0\} \iff \varphi_\alpha$ è iniettivo $\iff K[x] \cong K[\alpha]$.\footnote{Ricordiamo che per il \hyperref[g:1]{Primo Teorema Di Omomorfismo}, scegliendo il nucleo come sottogruppo per cui quozientare si ha che $\overline\varphi$ è iniettivo, mentre se il nucleo è banale $\varphi$ è iniettivo.}
 	\ii $\alpha$ è algebrico su $K$ $\iff \ker{\varphi_\alpha} \ne \{0\} \iff \varphi_\alpha$ non è iniettivo.
 	\end{enumerate}
 \end{corollary}
@@ -5982,17 +5982,6 @@ Dato un campo $K$ e due sue estensioni $K(\alpha)$, $K(\beta)$ con $[K(\alpha) :
 \begin{remark}
 In generale $[m,n] \mid [K(\alpha,\beta) : K]$ e quindi è sempre vero che $[m,n] \leq [K(\alpha,\beta) : K] \leq mn$.
 \end{remark}
-
-
-
-
-
-
-
-
-
-
-
 
 
 \end{document}
